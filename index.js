@@ -81,7 +81,7 @@ export const artists = [
     },
     {
       "id": 8,
-      "name": "Vincent van Dough",
+      "name": "Vincent Van Gogh",
       "years": "1853 - 1890",
       "genre": "Post-Impressionism",
       "nationality": "Dutch",
@@ -206,8 +206,8 @@ export const artists = [
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Practice accessing data above by console.log-ing following items:
 
-(1) Name of the first artist (0th index) in the array
-(2) Bio of the third artist (2nd index) in the array */
+(1) Name of the first artist (0th index) in the array  "name": "Amedeo Modigliani",
+(2) Bio of the third artist (2nd index) in the array */ "Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez, known as Diego Rivera (Spanish pronunciation: [ˈdjeɣo riˈβeɾa]; December 8, 1886 – November 24, 1957) was a prominent Mexican painter. His large frescoes helped establish the Mexican mural movement in Mexican art. Between 1922 and 1953, Rivera painted murals in, among other places, Mexico City, Chapingo, Cuernavaca, San Francisco, Detroit, and New York City. In 1931, a retrospective exhibition of his works was held at the Museum of Modern Art in New York. Rivera had a volatile marriage with fellow Mexican artist Frida Kahlo.",
 
 
 
@@ -225,8 +225,8 @@ Create a function called `getArtistByIndex` that takes two arguments:
  * For example, if getArtistByIndex is invoked with the artists dataset and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`
 */
-function getArtistByIndex(/*Your Code Here*/) {
-  /*Your Code Here*/
+function getArtistByIndex() {
+  let artists = ["Amedeo Modigliani", "Vasiliy Kandinskiy", "Diego Rivera", "Claude Monet", "Rene Magritte", "Salvador Dali", "Edouard Manet", "Andrei Rublev", "Vincent Van Gogh", "Gustav Klimt", "Hieronymus Bosch", "Kazimir Malevich", "Mikhail Vrubel", "Pablo Picasso", "Peter Paul Rubens", "Pierre-Auguste Renoir", "Francisco Goya", "Frida Kahlo", "El Greco", "Albrecht Dürer"]
 }  
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -236,8 +236,9 @@ it returns an array with names of artists who were born in and died in 20th cent
 example born in 1901 and died in 1959 - included / born in 1889 and died in 1925 not included
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
-function get20s(/*Your Code Here*/){
-  /*Your Code Here*/
+function get20s() {
+  let years = ["1900-2000"]
+  console.log = [6,18]
 }
 
 
@@ -252,8 +253,10 @@ Create a function called `removeArtist` that takes two arguments:
  * it will remove Amedeo Modigliani from our dataset and log the number 19.  
 */
 function removeArtist(/*Your Code Here*/) {
-   /*Your Code Here*/
+  let artists = ["Amedeo Modigliani", "Vasiliy Kandinskiy", "Diego Rivera", "Claude Monet", "Rene Magritte", "Salvador Dali", "Edouard Manet", "Andrei Rublev", "Vincent Van Gogh", "Gustav Klimt", "Hieronymus Bosch", "Kazimir Malevich", "Mikhail Vrubel", "Pablo Picasso", "Peter Paul Rubens", "Pierre-Auguste Renoir", "Francisco Goya", "Frida Kahlo", "El Greco", "Albrecht Dürer"]
+  console.log(remove) = [0]
 }
+
    
 
 /**
@@ -272,7 +275,13 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 At the end, this function should return the new array with information added"*/
 
 function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
+    let artists = ["Amedeo Modigliani", "Vasiliy Kandinskiy", "Diego Rivera", "Claude Monet", "Rene Magritte", "Salvador Dali", "Edouard Manet", "Andrei Rublev", "Vincent Van Gogh", "Gustav Klimt", "Hieronymus Bosch", "Kazimir Malevich", "Mikhail Vrubel", "Pablo Picasso", "Peter Paul Rubens", "Pierre-Auguste Renoir", "Francisco Goya", "Frida Kahlo", "El Greco", "Albrecht Dürer"]
+    id: 20,
+    name: Franky Lopez, 
+    years: 1998 - 11/6/2020,
+    genre: Web Design, 
+    nationality: American
+    bio: Im 21 years old from Nogales AZ. Huge sports fan and loves coding.
   }
 
   
@@ -287,7 +296,8 @@ and returns an array with names of artists who painted more than 100 paintings.
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ..."Albrecht Dürer"]*/
 
 function lotsOfArt(/*Your Code Here*/){
-  /*Your Code Here*/
+  let artists = ["Amedeo Modigliani", "Vasiliy Kandinskiy", "Diego Rivera", "Claude Monet", "Rene Magritte", "Salvador Dali", "Edouard Manet", "Andrei Rublev", "Vincent Van Gogh", "Gustav Klimt", "Hieronymus Bosch", "Kazimir Malevich", "Mikhail Vrubel", "Pablo Picasso", "Peter Paul Rubens", "Pierre-Auguste Renoir", "Francisco Goya", "Frida Kahlo", "El Greco", "Albrecht Dürer"]
+  console.log = [0,4,20]
 }
 
 
